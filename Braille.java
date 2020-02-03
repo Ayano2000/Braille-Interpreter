@@ -9,11 +9,12 @@ public class Braille {
 			char character = args[0].charAt(i);
 			if (Character.isUpperCase(character)) {
 				output = new Uppercase(character);
-				System.out.println("Uppercase " + character);
+				// System.out.println("Uppercase " + character);
 			} else if (character == ' ') {
 				System.out.println("Space " + character);
 			} else {
-				System.out.println("Lowercase " + character);
+				output = new Lowercase(character);
+				// System.out.println("Lowercase " + character);
 			}
 				// System.out.println(character);
 		}
