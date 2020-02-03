@@ -1,0 +1,13 @@
+This programme will take as an argument a string that is
+to be displayed in Braille.
+
+From the main in Braille.java it will check each character.
+Depending on whethere it is a :
+                                Uppercase
+                                Lowercase
+                                Digit
+                                Space/Unhandled
+An instance of the appropriate class found in the views folder
+will be instantiated and the appropriate braiile formation
+of (* = Bumps) and (. = flat space) will be printed.
+
