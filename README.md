@@ -1,2 +1,2 @@
 # Braille-Interpreter
-Simple Java Application to interperate Braille
+Simple Java Application to display characters and digits in Braille
