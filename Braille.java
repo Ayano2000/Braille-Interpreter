@@ -29,7 +29,8 @@ public class Braille {
 					// Garbage char
 				}
 					// System.out.println(character);
-			}System.out.println("Type \"exit\" to close the programme");
+			}
+			System.out.println("Type \"exit\" to close the programme");
 			line = Reader.readLine();
 		}	
 	}
